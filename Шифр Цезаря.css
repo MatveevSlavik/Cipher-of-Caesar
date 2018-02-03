@@ -1,0 +1,36 @@
+* {
+  box-sizing: content-box; /* Алгоритм расчёта ширины и высоты */ 
+}
+body {
+  margin: 0; /* Внешнее пространство между бордюром и невидимой границей прямоугольника*/
+  width: calc(100vw - 25px); /* Ширина */
+  height: 100vh; /* Высота */ 
+  display: block; /*Управления шаблоном*/
+  text-align: center;  /* Выравнивание текста*/
+  background: #FA8072;  /* Цвет фона */
+  color: black;
+  font-family: "Open Sans"
+}
+
+textarea  {
+  background: #ffffff; 
+  padding: 10px;  /* Поля */ 
+  width: 700px; 
+  height: 400px;  
+  font-size: 14px;  /* Размер шрифта */ 
+} 
+
+input {
+  padding: 10px; 
+  border: 0px; /* Толшина границ */
+  outline: 0;
+  border-bottom: 2px solid rgba(255,255,255,0.6);
+  background-color: transparent;
+  color: black;
+  text-align: left;
+  font-size: 22px;
+  transition: border-bottom 300ms ease-in-out;
+  }
+  
+
+ 

@@ -1,0 +1,33 @@
+<html>
+<head>
+  <title>Шифр Цезаря</title>
+  <script src="Шифр Цезаря.js"></script>
+  <link rel="stylesheet" type="text/css" href="Шифр Цезаря.css">
+</head>
+<body>
+ <h1>Шифр Цезаря</h1> 
+ <hr> 
+ <h2> Известный как шифр сдвига, код Цезаря или сдвиг Цезаря — один из самых простых и наиболее широко известных методов шифрования.</h2> 
+ <hr/> 
+ <br>
+  <div align="center">
+    <strong>Введите сюда ваш текст:</strong><br>
+    <br>
+    <textarea id="text1" type="text" ></textarea><br>
+	<br>
+    <strong>Введите смещение:</strong><br>
+    <input id="nr" type="number">
+    <br>
+    <br>
+    <strong>Выберите действие:</strong><br>
+    <br>
+    <input onclick="caesar_code(0,+nr.value)" type="button" value="Зашифровать">
+    <input onclick="caesar_code(1,+nr.value)" type="button" value="Расшифровать">
+    <br>
+    <br>
+    <strong>Результат:</strong><br>
+    <br>
+    <textarea id="text2" type="text"></textarea>
+  </div>
+</body>
+</html>
